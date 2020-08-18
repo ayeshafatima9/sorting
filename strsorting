@@ -1,0 +1,8 @@
+#Using collections.counter()
+#will give result in sorted manner
+from collections import Counter #importing
+def most_freq(string):
+    d=string #string to be checked
+    result=Counter(d) #counter function applied to get result 
+    print("the freq of the word is"+str(result)) #result printed
+most_freq("Mississippi") #function call with returning value Mississippi
